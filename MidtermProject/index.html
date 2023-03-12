@@ -75,6 +75,10 @@ GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="a
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+  #squatContainer:hover,#deadliftContainer:hover,#curlContainer:hover,#benchContainer:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: lightgray;
+  }
 </style>
 
 
@@ -90,8 +94,8 @@ GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="a
         <div class="col-4 pt-1">
           <a  href="#" style="color: black">Subscribe</a>
         </div>
-        <div class="col-4 text-center">
-          <h1 style="color: black;">ISU FITNESS</h1>
+        <div class="col-4 text-center" style="background-color: black; border-radius: 25px;">
+          <h1 style="color: white;"><strong>ISU FITNESS</strong></h1>
         </div>
         <div class="col-4 d-flex justify-content-end align-items-center">
           <a class="link-secondary" href="#" aria-label="Search">
@@ -157,14 +161,14 @@ GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="a
             <a href="benchpress.html" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <img src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Barbell-Bench-Press.gif" alt="bench press"
+            <img src="https://www.inspireusafoundation.org/wp-content/uploads/2022/05/barbell-pause-bench.gif" alt="bench press"
               height="250" width="250">
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
+          <div id="deadliftContainer"class="col p-4 d-flex flex-column position-static">
             <!-- <strong class="d-inline-block mb-2 text-success">Design</strong> -->
             <h3 id="deadliftTitle" class="mb-0">Post title</h3>
             <div id="deadliftDifficulty" class="mb-1 text-muted">Nov 11</div>
@@ -181,7 +185,7 @@ GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="a
       </div>
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
+          <div id="curlContainer"class="col p-4 d-flex flex-column position-static">
             <!-- <strong class="d-inline-block mb-2 text-success">Design</strong> -->
             <h3 id="curlTitle" class="mb-0">Post title</h3>
             <div id="curlDifficulty" class="mb-1 text-muted">Nov 11</div>
@@ -206,7 +210,7 @@ GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="a
 
         <article class="blog-post">
           <h2 class="blog-post-title mb-1"></h2>
-          <h2>About Us</h2>
+
 
           <p>At our fitness company, we believe that fitness should be both fun and accessible for everyone.</p>
           <hr>
